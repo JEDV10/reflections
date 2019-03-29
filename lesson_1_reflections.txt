@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	It was helpful because you can find errors easily just looking at the differences
+instead of a complete document (error was at line 398).
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It is faster to find your own errors or even to test little changes and recover
+a previous version if it does not work properly.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    When you can choose when to commit, you cna assure that it is a correct and logical
+commit since it represent a complete peace of work (new feature, fixed bug, etc.). But
+it makes you responsible of using this capacity properly not making too long commits 
+(several features or several fixed things in the same commit) or too small (one commit 
+for each line).
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because Git is more orientated to software design where is is usual than several
+files are interrelated, while Google Docs is designed for individual files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    $ git config --global color.ui auto <-- in order to see colors using "diff" command.
+    $ git log <-- to see each commit with its message and ID.
+    $ git diff ID_old ID_new <-- to see differences between two commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can always recover a previous versio nwithout any bug and check de differences
+easily so there is no to worry.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to see it working on a real project.
