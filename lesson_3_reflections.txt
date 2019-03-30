@@ -19,3 +19,11 @@ changes and test their results without losing the main code. Clones are copies o
 your entire repository. They can be local (another folder) or remote (in GitHub). 
 Forks are your own vertions of other's repositories and act like new repositories so
 you can clone them locally or make new branches.
+
+What is the benefit of having a copy of the last known state of the remote stored 
+locally?
+
+	With that last known copy it is easy to work offline since you have the most
+up-to-date version. In addition, there are less sifferences between your modified 
+local copy and the remote stored copy so it would be easier to merge both versions 
+in case of conflict.
