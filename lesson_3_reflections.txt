@@ -10,3 +10,12 @@ stay up-to-date with your remote repository?
 	Because there can be another person who is working simultaneously on the same 
 project so you son't wnat anybody modifying your code while you have not finish your
 part.
+
+Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+
+	Branches are different explotarion paths on your project allowing you to make 
+changes and test their results without losing the main code. Clones are copies of
+your entire repository. They can be local (another folder) or remote (in GitHub). 
+Forks are your own vertions of other's repositories and act like new repositories so
+you can clone them locally or make new branches.
