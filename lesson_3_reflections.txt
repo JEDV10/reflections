@@ -34,3 +34,12 @@ what would be harder?
 	Using shared directories on Google Drive. It would be harder to maintain a version 
 control system allowing us to fix errors, bugs and etc. It would be easier to 
 understand what we are doing.
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+	When you want to create a new feature or simply modify something without overwriting 
+the master branch. Or also when you are collaborating with others and you are not 
+allowed to modify the master branch. The benefit is that thsi way is almost impossible 
+to introduce bugs or overwrite other's work. The main drawback is that it is a tedious
+task.
