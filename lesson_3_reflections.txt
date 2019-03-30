@@ -27,3 +27,10 @@ locally?
 up-to-date version. In addition, there are less sifferences between your modified 
 local copy and the remote stored copy so it would be easier to merge both versions 
 in case of conflict.
+
+How would you collaborate without using Git or GitHub? What would be easier, and 
+what would be harder?
+
+	Using shared directories on Google Drive. It would be harder to maintain a version 
+control system allowing us to fix errors, bugs and etc. It would be easier to 
+understand what we are doing.
