@@ -14,13 +14,39 @@ individually.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	You can use it to check the difference between the actual state of the working
+directory (your current version of the project) and the version on the repository 
+(copied on the staging area) without making any commit. This way you cna commit files
+separatedly.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	When you wnat to create a new experimental feature or simply make some kind of
+experiment keeping a copy of the working "oficial" version. Branches can help
+creating a copy of your current situation and allowing you to make changes without
+losing the "oficial" version.
+
 How do the diagrams help you visualize the branch structure?
+
+	It is easier to know where you are working and to understand the reachability 
+of each commit avoiding losing work.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	A new commit at the tip of the last brach you checked out with the combination
+of the modifications in both braches. For example, if we want to combine "master" 
+and "coins" in "master":
+	$ git checkout master
+	$ git merge master coins
+	$ git branch -d coins
+Now, in the new diagram, we have both commits for both branches but in only one 
+branch "master".
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Automatic merging save a lot of time but it can create awful situations when
+there are code modified in two different branches not knowing what to do. In that
+cases manual merging is the solution.
