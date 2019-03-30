@@ -1,1 +1,4 @@
 When would you wnat to create a remote repository rather than keeping all your work local?
+ 
+  Mainly when you want to work collaboratively with other teams. It is also useful when you
+want to maintain a copy of your work and work from different computers.
